@@ -1,0 +1,32 @@
+.my-first-box {
+    background-color:gold; /* Gives the box a light blue background */
+    padding: 20px; /* Adds space inside the box */
+    margin: 15px; /* Adds space outside the box, pushing it away from other things */
+    border: 2px solid steelblue; /* Puts a blue border around the box */
+    text-align: center; /* Centers the text and image inside */
+
+}
+
+.another-box {
+    background-color: red;
+    padding: 10px;
+    margin: 15px;
+    border: 2px solid steelblue;
+}
+
+h2 {
+    color: red;
+}
+h3 {
+color:gold ;
+}
+p1 {
+    font-family: sans-serif;
+    color: ##000080;
+     text-align: center; /* Centers the text and image inside */
+
+}
+h4, p2 {
+color:gold ;
+
+}
