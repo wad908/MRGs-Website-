@@ -1,5 +1,5 @@
 .my-first-box {
-    background-color:gold; /* Gives the box a light blue background */
+    background-color:red; /* Gives the box a light blue background */
     padding: 20px; /* Adds space inside the box */
     margin: 15px; /* Adds space outside the box, pushing it away from other things */
     border: 2px solid steelblue; /* Puts a blue border around the box */
@@ -8,7 +8,7 @@
 }
 
 .another-box {
-    background-color: red;
+    background-color: yellow;
     padding: 10px;
     margin: 15px;
     border: 2px solid steelblue;
@@ -18,7 +18,7 @@ h2 {
     color: red;
 }
 h3 {
-color:gold ;
+color:black ;
 }
 p1 {
     font-family: sans-serif;
@@ -27,12 +27,30 @@ p1 {
 
 }
 h4, p2 {
-color:gold ;
-
-.one-more-box{
-    background-color: navy;
-    padding: 10px;
-    margin: 15px;
-    border: 2px solid steelblue;
+color:black ;
+text-font:Sans-serif;
 }
+.nav-links a {
+    color: red;
+    text-decoration: none;
+    margin-left: 20px; /* Space between the links */
+    padding: 5px 10px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+body {
+    background-color: #navy; /* Change this to any color you like */
+}
+/* Flexbox for the image gallery */
+.image-gallery {
+    display: flex; /* Makes this div a flex container */
+    justify-content: center; /* Centers the images horizontally */
+    gap: 15px; /* Adds space between the images */
+    margin-top: 30px;
+    border: 2px solid steelblue;
+    padding: 20px;
+    i
+
+
+.image-gallery img {
+    border-radius: 8px; /* Slightly rounded corners for images */
 }
