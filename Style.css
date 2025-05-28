@@ -29,4 +29,10 @@ p1 {
 h4, p2 {
 color:gold ;
 
+.one-more-box{
+    background-color: navy;
+    padding: 10px;
+    margin: 15px;
+    border: 2px solid steelblue;
+}
 }
