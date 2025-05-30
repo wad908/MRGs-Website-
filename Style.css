@@ -1,44 +1,73 @@
-.my-first-box {
-    background-color:red; /* Gives the box a light blue background */
+.Header-box{
+    background-color: white; /* Gives the box a light blue background */
     padding: 20px; /* Adds space inside the box */
     margin: 15px; /* Adds space outside the box, pushing it away from other things */
-    border: 2px solid steelblue; /* Puts a blue border around the box */
+    border: 3px solid Navy; /* Puts a blue border around the box */
     text-align: center; /* Centers the text and image inside */
-
 }
 
 .another-box {
-    background-color: yellow;
+    background-color: white;
     padding: 10px;
     margin: 15px;
-    border: 2px solid steelblue;
+    border: 3px solid navy;
 }
 
-h2 {
-    color: red;
+h2, h3 {
+    color: darkblue;
 }
-h3 {
-color:black ;
-}
-p1 {
+
+p {
     font-family: sans-serif;
-    color: ##000080;
-     text-align: center; /* Centers the text and image inside */
-
+    color: #333;
 }
-h4, p2 {
-color:black ;
-text-font:Sans-serif;
+.#main-header { /* Target the div with id="main-header" */
+    background-color: #ffcc00; /* Bright yellow */
+    color: #333;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 5px solid orange;
+    margin-bottom: 20px;
+}
+
+#contact-info { /* Target the div with id="contact-info" */
+    background-color: #White; /* Light cyan */
+    border: 3px solid navy; /* Teal border */
+    padding: 15px;
+    margin-top: 30px;
+    width: 300px; /* Fixed width */
+    margin-left: auto; /* Centers the div if it has a width */
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 2.5em; /* Larger text */
+    margin-bottom: 10px;
+}
+/* Flexbox for the header */
+.navbar-container {
+    display: flex; /* Makes this div a flex container */
+    justify-content: space-between; /* Pushes logo to left, links to right */
+    align-items: center; /* Vertically centers the logo and links */
+    background-color: #000080;
+    color: white;
+    padding: 10px 20px;
+}
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
 }
 .nav-links a {
-    color: red;
+    color: white;
     text-decoration: none;
     margin-left: 20px; /* Space between the links */
     padding: 5px 10px;
     transition: background-color 0.3s ease; /* Smooth hover effect */
 }
-body {
-    background-color: #navy; /* Change this to any color you like */
+
+.nav-links a:hover {
+    background-color: #555;
+    border-radius: 4px;
 }
 /* Flexbox for the image gallery */
 .image-gallery {
@@ -46,11 +75,22 @@ body {
     justify-content: center; /* Centers the images horizontally */
     gap: 15px; /* Adds space between the images */
     margin-top: 30px;
-    border: 2px solid steelblue;
+    border: 2px solid navy;
     padding: 20px;
-    i
-
+}
 
 .image-gallery img {
     border-radius: 8px; /* Slightly rounded corners for images */
+}
+.Picture 1{
+width: 300px;
+height: 200px;
+}
+.Picture 2{
+width: 300px;
+height: 200px;
+}
+.Picture 3{
+width: 300px;
+height: 200px:;
 }
