@@ -6,8 +6,8 @@
     text-align: center; /* Centers the text and image inside */
 }
 
-.another-box {
-    background-color: white;
+.another-box{
+    background-color: navy;
     padding: 10px;
     margin: 15px;
     border: 3px solid navy;
@@ -69,28 +69,9 @@ h1 {
     background-color: #555;
     border-radius: 4px;
 }
-/* Flexbox for the image gallery */
-.image-gallery {
-    display: flex; /* Makes this div a flex container */
-    justify-content: center; /* Centers the images horizontally */
-    gap: 15px; /* Adds space between the images */
-    margin-top: 30px;
-    border: 2px solid navy;
-    padding: 20px;
+p2, h4{
+color: white;
 }
-
-.image-gallery img {
-    border-radius: 8px; /* Slightly rounded corners for images */
-}
-.Picture 1{
-width: 300px;
-height: 200px;
-}
-.Picture 2{
-width: 300px;
-height: 200px;
-}
-.Picture 3{
-width: 300px;
-height: 200px:;
+.First-heading{
+color:White;
 }
